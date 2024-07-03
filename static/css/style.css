@@ -1,0 +1,34 @@
+h1{
+    color: blue;
+    background-color: black;
+    line-height: 100px;
+    text-align: center;
+    text-shadow: 3px 12px 12px white;
+}
+
+p{
+    font-weight: bold;
+
+}
+
+.home{
+    background-color: darkgrey;
+    display: flex;
+    color: white;
+    margin-left:50px ;
+    margin-right: 50px;
+    padding: 30px;
+
+}
+
+img{
+    margin-right: 30px;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+.home:hover{
+    background-color: steelblue;
+
+}

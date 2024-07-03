@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+
+    {% load static %}
+
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<h1>ELIMU APPLICATION</h1>
+<a href="{% url 'form' %}" class="btn btn-primary">Form</a>
+<a href="{% url 'gallery' %}" class="btn btn-success">Gallery</a>
+<a href="{% url 'table' %}" class="btn btn-warning">Table</a>
+
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eligendi labore quia! Amet dolores incidunt, perferendis perspiciatis quaerat recusandae sed? Doloribus error facere laudantium magni maiores provident quidem totam voluptate?</span><span>Asperiores cupiditate distinctio dolor et eveniet ex facilis harum illum itaque laboriosam laborum modi necessitatibus nobis quas quo, reiciendis repellendus repudiandae sequi sint tenetur totam unde velit veritatis, vitae voluptatem?</span></p>
+
+<div class="home">
+    <img src="{% static 'assets/images/mages 1.jpeg'%}" alt="">
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus dolore eligendi id incidunt magni maxime, natus pariatur quaerat quas quod tempore velit voluptatem? Aliquam ducimus eaque maiores reprehenderit soluta!</span><span>Aperiam dolorem explicabo illum libero magnam modi, nisi non officiis pariatur rem suscipit tempore totam voluptates. Nisi, quibusdam, sit? Alias deserunt doloribus eius hic itaque, quam unde ut veritatis voluptas!</span></p>
+</div>
+
+
+</body>
+</html>
